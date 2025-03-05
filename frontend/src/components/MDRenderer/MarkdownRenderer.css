@@ -1,0 +1,25 @@
+.md-h1 {
+  color: #111111;
+}
+
+.md-p {
+  color: #333333;
+}
+
+.md-strong {
+  font-weight: bold;
+}
+
+.md-em {
+  font-style: italic;
+}
+
+.md-a {
+  color: #1e88e5;
+  text-decoration-line: none;
+}
+
+.md-a:hover {
+  color: #1565c0;
+  text-decoration-line: none;
+}

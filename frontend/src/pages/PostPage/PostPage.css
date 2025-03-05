@@ -1,0 +1,24 @@
+.postpage-container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postpage-postarea {
+  width: 60%;
+
+  background-color: #fcfcfc;
+
+  box-sizing: border-box;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.post-created_at {
+  box-sizing: border-box;
+  margin: 5px 0 5px;
+}
