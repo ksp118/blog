@@ -7,7 +7,7 @@ function ContentListDisplayer({ contentName }) {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await fetch("/api/posts");
+        const response = await fetch("http://localhost:3001/api/posts");
         const data = await response.json();
         setPosts(data);
       } catch (error) {

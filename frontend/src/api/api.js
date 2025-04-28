@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const getPosts = async () => {
   try {
-    const response = await axios.get("/api/posts");
+    const response = await axios.get("http://localhost:3001/api/posts");
     return response.data;
   } catch (error) {
     console.error("API Error:", error);
@@ -12,7 +12,7 @@ export const getPosts = async () => {
 
 export const getPostById = async (id) => {
   try {
-    const response = await axios.get(`/api/posts/${id}`);
+    const response = await axios.get(`http://localhost:3001/api/posts/${id}`);
     return response.data;
   } catch (error) {
     console.error("API Error:", error);
