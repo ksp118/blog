@@ -1,7 +1,10 @@
-const { uuid } = require("./uuid");
-const { password } = require("./password");
+const { uuidToBinary, binaryToUuid, v4 } = require("./uuid");
+const { hashPassword, verifyPassword } = require("./password");
 
 module.exports = {
-  ...uuid,
-  ...password,
+  uuidToBinary,
+  binaryToUuid,
+  v4,
+  hashPassword,
+  verifyPassword,
 };
