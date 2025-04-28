@@ -7,6 +7,9 @@ function Header() {
       <Link to={"/"}>
         <img className="header-logo" src="/img/logo.svg"></img>
       </Link>
+      <Link to={"/login"}>
+        <span>login</span>
+      </Link>
     </div>
   );
 }
